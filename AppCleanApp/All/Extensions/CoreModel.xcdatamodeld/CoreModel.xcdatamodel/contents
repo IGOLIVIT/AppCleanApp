@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ClientModel" representedClassName="ClientModel" syncable="YES" codeGenerationType="class">
+        <attribute name="clAddress" optional="YES" attributeType="String"/>
+        <attribute name="clCheck" optional="YES" attributeType="String"/>
+        <attribute name="clDate" optional="YES" attributeType="String"/>
+        <attribute name="clMail" optional="YES" attributeType="String"/>
+        <attribute name="clName" optional="YES" attributeType="String"/>
+        <attribute name="clPhone" optional="YES" attributeType="String"/>
+        <attribute name="clPrice" optional="YES" attributeType="String"/>
+        <attribute name="clTag" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PeoplesModel" representedClassName="PeoplesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="plAddress" optional="YES" attributeType="String"/>
+        <attribute name="plCheck" optional="YES" attributeType="String"/>
+        <attribute name="plDate" optional="YES" attributeType="String"/>
+        <attribute name="plMail" optional="YES" attributeType="String"/>
+        <attribute name="plName" optional="YES" attributeType="String"/>
+        <attribute name="plPhone" optional="YES" attributeType="String"/>
+        <attribute name="plPrice" optional="YES" attributeType="String"/>
+        <attribute name="plProgress" optional="YES" attributeType="String"/>
+        <attribute name="plTag" optional="YES" attributeType="String"/>
+    </entity>
+</model>
