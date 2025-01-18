@@ -29,6 +29,7 @@ final class ClientsViewModel: ObservableObject {
     @Published var plCheck: String = ""
     @Published var plPrice: String = ""
     @Published var plProgress: String = ""
+    @Published var plInf: String = ""
 
     @Published var peoples: [PeoplesModel] = []
     @Published var selectedPeople: PeoplesModel?
@@ -47,6 +48,7 @@ final class ClientsViewModel: ObservableObject {
         loan.plCheck = plCheck
         loan.plPrice = plPrice
         loan.plProgress = plProgress
+        loan.plInf = plInf
 
         CoreDataStack.shared.saveContext()
     }

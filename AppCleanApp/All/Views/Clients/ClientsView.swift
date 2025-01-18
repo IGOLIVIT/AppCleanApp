@@ -91,6 +91,10 @@ struct ClientsView: View {
                                         .foregroundColor(.gray.opacity(0.8))
                                         .font(.system(size: 14, weight: .medium))
                                     
+                                    Text(index.plInf ?? "")
+                                        .foregroundColor(.gray.opacity(0.8))
+                                        .font(.system(size: 14, weight: .medium))
+                                    
                                     HStack {
                                         
                                         Text("Cost")

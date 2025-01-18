@@ -149,6 +149,23 @@ struct AddClient: View {
                         .frame(maxWidth: .infinity)
                         .background(RoundedRectangle(cornerRadius: 10).fill(.gray.opacity(0.1)))
                         
+                        ZStack(content: {
+                            
+                            Text("Additional inf")
+                                .foregroundColor(.gray)
+                                .font(.system(size: 15, weight: .regular))
+                                .opacity(viewModel.plInf.isEmpty ? 1 : 0)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                            
+                            TextField("", text: $viewModel.plInf)
+                                .foregroundColor(Color.black)
+                                .font(.system(size: 16, weight: .regular))
+                            
+                        })
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(RoundedRectangle(cornerRadius: 10).fill(.gray.opacity(0.1)))
+                        
                         Text("Select Tag")
                             .foregroundColor(.black)
                             .font(.system(size: 18, weight: .semibold))

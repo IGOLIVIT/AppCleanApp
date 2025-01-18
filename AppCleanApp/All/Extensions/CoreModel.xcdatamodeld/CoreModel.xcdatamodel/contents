@@ -14,6 +14,7 @@
         <attribute name="plAddress" optional="YES" attributeType="String"/>
         <attribute name="plCheck" optional="YES" attributeType="String"/>
         <attribute name="plDate" optional="YES" attributeType="String"/>
+        <attribute name="plInf" optional="YES" attributeType="String"/>
         <attribute name="plMail" optional="YES" attributeType="String"/>
         <attribute name="plName" optional="YES" attributeType="String"/>
         <attribute name="plPhone" optional="YES" attributeType="String"/>
