@@ -43,6 +43,11 @@
 		786335B52D2EECA000C3844F /* CBDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786335B42D2EECA000C3844F /* CBDView.swift */; };
 		786335B82D2EECCC00C3844F /* WVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786335B72D2EECCC00C3844F /* WVCView.swift */; };
 		786335BB2D2EECD800C3844F /* UCCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786335BA2D2EECD800C3844F /* UCCView.swift */; };
+		789993FD2D47E9390013B0C9 /* Wtvdo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789993FC2D47E9390013B0C9 /* Wtvdo.swift */; };
+		789993FF2D47E94B0013B0C9 /* Dhwmce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789993FE2D47E94B0013B0C9 /* Dhwmce.swift */; };
+		789994012D47E9530013B0C9 /* Sjnep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994002D47E9530013B0C9 /* Sjnep.swift */; };
+		7899940A2D47EB2F0013B0C9 /* US1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789994092D47EB2F0013B0C9 /* US1.swift */; };
+		7899940C2D47EB380013B0C9 /* US2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899940B2D47EB380013B0C9 /* US2.swift */; };
 		78BFE5702D2EED130081F51F /* IVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE56F2D2EED130081F51F /* IVCView.swift */; };
 		78BFE5732D2EED220081F51F /* RVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE5722D2EED220081F51F /* RVCView.swift */; };
 		78BFE5762D2EED3A0081F51F /* MMPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BFE5752D2EED3A0081F51F /* MMPView.swift */; };
@@ -97,6 +102,11 @@
 		786335B42D2EECA000C3844F /* CBDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBDView.swift; sourceTree = "<group>"; };
 		786335B72D2EECCC00C3844F /* WVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WVCView.swift; sourceTree = "<group>"; };
 		786335BA2D2EECD800C3844F /* UCCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCCView.swift; sourceTree = "<group>"; };
+		789993FC2D47E9390013B0C9 /* Wtvdo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wtvdo.swift; sourceTree = "<group>"; };
+		789993FE2D47E94B0013B0C9 /* Dhwmce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhwmce.swift; sourceTree = "<group>"; };
+		789994002D47E9530013B0C9 /* Sjnep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sjnep.swift; sourceTree = "<group>"; };
+		789994092D47EB2F0013B0C9 /* US1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = US1.swift; sourceTree = "<group>"; };
+		7899940B2D47EB380013B0C9 /* US2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = US2.swift; sourceTree = "<group>"; };
 		78BFE56F2D2EED130081F51F /* IVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVCView.swift; sourceTree = "<group>"; };
 		78BFE5722D2EED220081F51F /* RVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RVCView.swift; sourceTree = "<group>"; };
 		78BFE5752D2EED3A0081F51F /* MMPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMPView.swift; sourceTree = "<group>"; };
@@ -174,6 +184,7 @@
 		786335532D2ECEDB00C3844F /* Start */ = {
 			isa = PBXGroup;
 			children = (
+				789994082D47EB290013B0C9 /* US */,
 				786335592D2ECF0900C3844F /* SV */,
 				786335582D2ECEF400C3844F /* Loading */,
 				786335572D2ECEEE00C3844F /* Launch */,
@@ -196,6 +207,9 @@
 				786335632D2ED57D00C3844F /* CoreDataStack.swift */,
 				786335652D2ED58500C3844F /* Array.swift */,
 				786335672D2ED58C00C3844F /* DateConvert.swift */,
+				789993FC2D47E9390013B0C9 /* Wtvdo.swift */,
+				789993FE2D47E94B0013B0C9 /* Dhwmce.swift */,
+				789994002D47E9530013B0C9 /* Sjnep.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -444,6 +458,15 @@
 			path = IVC;
 			sourceTree = "<group>";
 		};
+		789994082D47EB290013B0C9 /* US */ = {
+			isa = PBXGroup;
+			children = (
+				789994092D47EB2F0013B0C9 /* US1.swift */,
+				7899940B2D47EB380013B0C9 /* US2.swift */,
+			);
+			path = US;
+			sourceTree = "<group>";
+		};
 		78BFE5712D2EED1A0081F51F /* RVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -584,6 +607,8 @@
 				7863357A2D2EDDCC00C3844F /* ListView.swift in Sources */,
 				78BFE5842D2EED8D0081F51F /* ClientsView.swift in Sources */,
 				786335462D2ECEB800C3844F /* ContentView.swift in Sources */,
+				7899940C2D47EB380013B0C9 /* US2.swift in Sources */,
+				789993FD2D47E9390013B0C9 /* Wtvdo.swift in Sources */,
 				786335992D2EEB9E00C3844F /* DisinfectionView.swift in Sources */,
 				786335702D2ED88100C3844F /* SV2.swift in Sources */,
 				786335862D2EE6FD00C3844F /* EquipView.swift in Sources */,
@@ -593,6 +618,7 @@
 				786335B22D2EEC9000C3844F /* ADSView.swift in Sources */,
 				78BFE5702D2EED130081F51F /* IVCView.swift in Sources */,
 				786335AC2D2EEC6B00C3844F /* WSPView.swift in Sources */,
+				7899940A2D47EB2F0013B0C9 /* US1.swift in Sources */,
 				78BFE57F2D2EED660081F51F /* WTSNView.swift in Sources */,
 				786335A02D2EEC0900C3844F /* UFCView.swift in Sources */,
 				78BFE57C2D2EED540081F51F /* MCCView.swift in Sources */,
@@ -609,9 +635,11 @@
 				78BFE58D2D302A2B0081F51F /* ClientsViewModel.swift in Sources */,
 				786335642D2ED57D00C3844F /* CoreDataStack.swift in Sources */,
 				78BFE5882D2FEEE40081F51F /* ScheduleViewModel.swift in Sources */,
+				789993FF2D47E94B0013B0C9 /* Dhwmce.swift in Sources */,
 				78BFE5822D2EED840081F51F /* SettingsView.swift in Sources */,
 				786335972D2EEB9700C3844F /* FurnitureCleaning.swift in Sources */,
 				786335952D2EEB9000C3844F /* GlassCleaningView.swift in Sources */,
+				789994012D47E9530013B0C9 /* Sjnep.swift in Sources */,
 				7863359D2D2EEBB600C3844F /* ToolsView.swift in Sources */,
 				7863356C2D2ED59A00C3844F /* LoadingView.swift in Sources */,
 				7863356E2D2ED87B00C3844F /* SV1.swift in Sources */,
@@ -756,7 +784,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AppCleanApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Doku Plin \n";
+				INFOPLIST_KEY_CFBundleDisplayName = "ProClean Manager mr.Bonan\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -772,7 +800,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.AppCleanApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -795,7 +823,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AppCleanApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Doku Plin \n";
+				INFOPLIST_KEY_CFBundleDisplayName = "ProClean Manager mr.Bonan\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -811,7 +839,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.AppCleanApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
